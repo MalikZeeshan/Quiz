@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eleganter - New Amazing HTML5 Template</title>
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/responsee.css">
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">     
+    <link rel="stylesheet" href="css/template-style.css">
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>      
+  </head>
+  
+  <body class="size-1140">
+  	
+    <!-- HEADER -->
+    <header>    
+      
+        
+      
+        
+        
+        
+        
+        <style>
+p {
+  text-align: center;
+  font-size: 25px;
+}
+           .timer{
+                    float: right;
+            }
+</style>
+        
+    </header>
+    
+    <!-- MAIN -->
+    <main role="main"> 
+
+      <!-- Section 2 -->
+      <section class="full-width">
+       
+          
+     <div class="s-12 m-12 l-6">
+            
+          <div class="padding-2x">
+
+              
+              <div class="line">
+              <div class="float-left">
+                 <div class="qmimg">
+                  <img src="img/TFYXEMdY.png">
+                  </div>
+              </div>
+               
+              </div>
+                  
+                   <div class="line">
+                                  <div class="timer">
+                  
+                        <p id="demo" class="float-right"> </p> 
+
+
+
+                  </div>
+               </div>
+                  
+      
+               <br>
+           
+                  <p class="text-size-16">
+                   </p>
+                <div class="container">   
+                    
+                        <div class="s-12">
+                     <h3> Q.1</h3>
+                            <h4> The ___ model describes the structure of the system or application that we are modeling</h4>
+                     </div>
+              </div>
+            
+              <div class="container">   
+              <label class="btn btn-primary active">
+    <input type="radio" name="options" id="option1" autocomplete="off"> Analysis
+  </label>
+             <br> 
+              <label class="btn btn-primary active">
+    <input type="radio" name="options" id="option1" autocomplete="off" checked> Analysis
+  </label>
+              <br>
+              
+                 <label class="btn btn-primary active">
+    <input type="radio" name="options" id="option1" autocomplete="off">Analysis
+  </label>
+                 </div>
+  
+              <div class="s-4 center">
+              <button class="s-8 center button background-primary text-white" type="submit">Next</button>
+          </div>
+                   </div>
+         
+              </div>
+      </section>
+      
+    </main>
+    
+    <!-- FOOTER -->
+      <footer>
+      
+      <!-- Bottom Footer -->
+      <section class="padding botom background-dark full-width">
+        <div class="s-12 l-6">
+          <p class="text-size-12">Copyright 2017, Vision Design - graphic zoo</p>
+          <p class="text-size-12">All images have been purchased from Bigstock. Do not use the images in your website.</p>
+        </div>
+        
+      </section>
+    </footer>
+      
+     
+      <script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2018 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+    
+    // Find the distance between now an the count down date
+    var distance = countDownDate - now;
+    
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    // Output the result in an element with id="demo"
+    document.getElementById("demo").innerHTML =  hours + "h "
+    + minutes + "m " + seconds + "s ";
+    
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+}, 1000);
+</script>
+      
+      
+    <script type="text/javascript" src="js/responsee.js"></script>
+    <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/template-scripts.js"></script>
+  </body>
+</html>
